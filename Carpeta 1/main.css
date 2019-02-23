@@ -1,0 +1,24 @@
+nav{
+    color: darkorange;
+    display: flex;
+    padding: 10PX;
+    background: teal;
+    justify-content: center;
+
+}
+nav:hover {
+    color: chartreuse;
+
+}
+
+#button{
+    padding: 0;
+}
+#button li{
+    display: inline;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: firebrick ;
+}
