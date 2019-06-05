@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+        <head>
+            <meta charset="utf-8">
+            <title>Page Title</title>
+            <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+            <script src="Mandar.jsp"></script>
+
+        </head>
+
+        <body>
+       
+            <h1>REGISTRO DE USUARIOS </h1>
+
+                <form name="loginForm" method="post" action="Mandar.jsp">
+                        <table>
+                        <tr>
+                            <td><label>CorreoElectronico: </label></td>
+                            <td><input type="text" name="correo"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>PrimerNombre: </label></td>
+                            <td><input type="text" name="nombre1"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>FechaDeNacimiento:  </label></td>
+                            <td><input type="date" name="fecha1"/></td>
+                        </tr>
+                        <tr>
+                            <td><label> NombreUsuario:  </label></td>
+                            <td><input  type="text" name="nombreusuario"/></td>
+                        </tr>
+                        <tr>
+                            <td><label> Contraseña: </label></td>
+                            <td><input  type="password" name="password"/></td>
+                        </tr>
+                        <tr>
+                            <td><input  type="submit" value="Login" /></td>
+                        </tr>
+                            
+                        </table>
+                        </form>
+        
+
+
+        </body>
+</html>
+
+<!-- Pagina en la que me ayude para vasarme en el trabajo
+
+    https://www.codejava.net/java-ee/servlet/handling-html-form-data-with-java-servlet
+
+-->
