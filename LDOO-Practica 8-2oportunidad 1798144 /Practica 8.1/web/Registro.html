@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            
+            
+        </script>
+    </head>
+    <body>
+        <div id="Formu">
+            <center>
+            <form id="texto" onsubmit="return valido()" action="Controller" method="POST">
+                <table>
+                    <tr>
+                        <td>Nombre</td>
+                        <td><input type="text" id="nombre" name="nombre"></td>                     
+                    </tr>
+                    <tr>
+                        <td>Primer Apellido</td>
+                        <td><input type="text" id="apellido1" name="apellido1"></td>                     
+                    </tr>
+                    <tr>
+                        <td>Segundo Apellido</td>
+                        <td><input type="text" id="apellido2" name="apellido2"></td>                     
+                    </tr>
+                    <tr>
+                        <td>Correo</td>
+                        <td><input type="text" id="correo" name="correo"></td>                     
+                    </tr>
+                    <tr>
+                        <td>Contraseña</td>
+                        <td><input type="password" id="password" name="password" placeholder="Minimo 6 Digitos"></td>
+                        <td><input type="hidden" name="controlardor" value="1"></td>
+                    </tr>                    
+                </table> 
+                <table>
+                    <tr>
+                        <td><input type="submit" value="Enviar"></td>
+                        <td><input type="reset" name="Reset"></td>
+                        <a href="Login.html">Iniciar Sesion</a>
+                    </tr>
+                </table>
+            </form>
+          </center>
+        </div>
+    </body>
+</html>
